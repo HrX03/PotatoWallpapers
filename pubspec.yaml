@@ -1,0 +1,29 @@
+name: potato_wallpapers
+description: POSP wallpapers app
+
+version: 0.1.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^0.1.2
+  http:
+  cached_network_image:
+  photo_view:
+  wallpaper:
+  image_downloader:
+  simple_animations:
+  flutter_svg:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
